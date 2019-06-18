@@ -26,7 +26,7 @@ If you're after more detail though you basically want to do the following:
 
 2) Make sure you have referenced JQuery in the page you're going to use this. Generally that means putting the following in the same page as the video / audio elements you want to customise:
 
-... **&lt;script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"&gt;&lt;/script&gt;**
+...**&lt;script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"&gt;&lt;/script&gt;**
 
 3) Next, reference the awesome plugin. At this point you will want to make sure you're sitting down because it's about to get uber cool.
 
