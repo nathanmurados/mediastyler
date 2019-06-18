@@ -49,7 +49,7 @@ Keep in mind these are normal CSS selectors, so if you wanted to only stylise on
 7) Follow me on twtter: https://twitter.com/themuradonian and say thanks :p
 
 ## Advanced options
-There are three options you can initialise the plugin with:
+There are also three options you can initialise the plugin with:
 
  1) single-reset - to have a single active player which _resets_ others when played (the default option)
  2) single-pause - to have a single active player which _pauses_ others when played, or
