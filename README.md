@@ -30,7 +30,7 @@ If you're after more detail though you basically want to do the following:
 
 3) Next, reference the awesome plugin. At this point you will want to make sure you're sitting down because it's about to get uber cool.
 
-  **&lt;script src="whereverYouPutThisFile/mediastyler.js"&gt;&lt;/script&gt;**
+   **&lt;script src="whereverYouPutThisFile/mediastyler.js"&gt;&lt;/script&gt;**
   
    Keep in mind this needs to point to wherever you actually put the script when you added it to your project.
 
@@ -47,7 +47,7 @@ Keep in mind these are normal CSS selectors, so if you wanted to only stylise on
 6) Run it! 
 
 
-## Advance options
+## Advanced options
 There are three options you can initialise the plugin with:
 
  1) single-reset - to have a single active player which resets others when played (the default option)
@@ -62,7 +62,7 @@ There are three options you can initialise the plugin with:
     });
  &lt;/script&gt;**
  
-Please let me know if this helped you!
+Let me know if you find any of this useful!
 
 Nathan Murados 
 Follow me on twtter: https://twitter.com/themuradonian
