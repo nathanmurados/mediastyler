@@ -19,10 +19,10 @@ A jquery plugin that provides customisation controls for standard audio and vide
 
 ## How to use it
 The quickest way is to download the plugin and take a look at the demo pages.
-<br/>
+
 If you're after more detail though you basically want to do the following:
 
-1) Download this plugin and add the mediastyler.js to your project's scripts folder, and the stylised.css to your project's styles folder (or wherever you store these in your project)
+1) Download this plugin and add the **mediastyler.js** to your project's scripts folder, and the **stylised.css** to your project's styles folder (or wherever you store these in your project)
 
 2) Make sure you have referenced JQuery in the page you're going to use this. Generally that means putting the following in the same page as the video / audio elements you want to customise:
 
