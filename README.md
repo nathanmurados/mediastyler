@@ -3,13 +3,26 @@
 A jquery plugin that provides customisation controls for standard audio and video html elements. Optionally ensures that audio and video do not play at the same time and (optionally) rewinds and stops other media when a different one starts playing
 
 <h2>What it does</h2>
+* Lets you customise the controls of a video and audio elements using regular CSS.
+* Comes with a defualt orange style that you can feel free to modify as much as you want
+* Stops other audio / videos from playing when a different is played - which prevents audio / video from playing at the same time 
+* Allows you to decide to let audio / videos play at the same time if you don't like the default option
+* Allows you to specify whether you want to rewind other audio or videos when a different one starts playing or just pause them
+* Has a customisable restart button
+* Has a customisable play button
+* Has a customisable pause button
+* Has a customisable seek time button
+* Indicates loading as it retrieves the media to play
+* Very light weight
+* Depends on JQuery
+* Is very unobtrusive 
 
 <h2>How to use it</h2>
 The quickest way is to download the plugin and take a look at the demo pages.
-
+<br/>
 If you're after more detail though you basically want to do the following:
 
-1) Download this plugin and add the mediastyler.js to your project's scripts folder, and the stylised.css to your project's styles folder (or wherever you store these thigns in your project)
+1) Download this plugin and add the mediastyler.js to your project's scripts folder, and the stylised.css to your project's styles folder (or wherever you store these in your project)
 
 2) Make sure you have referenced JQuery in the page you're going to use this. Generally that means putting the following in the same page as the video / audio elements you want to customise:
 
