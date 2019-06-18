@@ -5,7 +5,7 @@
     resetPeersOnPlay: true
   };
 
-  const settings = $.extend({ mode: 'solo-restart' }, options);
+  const settings = $.extend({ mode: 'single-reset' }, options);
 
   switch (settings.mode) {
     case 'single-reset':
