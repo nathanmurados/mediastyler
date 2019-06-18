@@ -1,8 +1,8 @@
-# mediastyler
-<h2>Description</h2>
+# Mediastyler
+## Description
 A jquery plugin that provides customisation controls for standard audio and video html elements. Optionally ensures that audio and video do not play at the same time and (optionally) rewinds and stops other media when a different one starts playing
 
-<h2>What it does</h2>
+## What it does
 * Lets you customise the controls of a video and audio elements using regular CSS.
 * Comes with a defualt orange style that you can feel free to modify as much as you want
 * Stops other audio / videos from playing when a different is played - which prevents audio / video from playing at the same time 
@@ -17,7 +17,7 @@ A jquery plugin that provides customisation controls for standard audio and vide
 * Depends on JQuery
 * Is very unobtrusive 
 
-<h2>How to use it</h2>
+## How to use it
 The quickest way is to download the plugin and take a look at the demo pages.
 <br/>
 If you're after more detail though you basically want to do the following:
@@ -54,7 +54,7 @@ Keep in mind these are normal CSS selectors, so if you wanted to only stylise on
 6) Run it! 
 
 
-<h2>Advance options</h2>
+## Advance options
 There are three options you can initialise the plugin with:
 
  1) single-reset - to have a single active player which resets others when played (the default option)
