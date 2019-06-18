@@ -50,9 +50,9 @@ Keep in mind these are normal CSS selectors, so if you wanted to only stylise on
 ## Advanced options
 There are three options you can initialise the plugin with:
 
- 1) single-reset - to have a single active player which resets others when played (the default option)
- 2) single-pause - to have a single active player which pauses others when played, or
- 3) multi - to allow all players to be active simultaneously
+ 1) single-reset - to have a single active player which /resets/ others when played (the default option)
+ 2) single-pause - to have a single active player which /pauses/ others when played, or
+ 3) multi - to allow /all/ players to be active simultaneously
  
  To choose one, use the following code in place of the code I provided in step 5, and change 'single-reset' below to the one you want instead:
  
