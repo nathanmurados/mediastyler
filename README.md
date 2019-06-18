@@ -36,7 +36,7 @@ If you're after more detail though you basically want to do the following:
 
 4) Now add the CSS too:
 
-   **&lt;link href="css/stylised.css" rel="stylesheet" type="text/css"&gt;**
+   **&lt;link href="whereverYouPutThisFile/stylised.css" rel="stylesheet" type="text/css"&gt;**
 
 5) Use the following to define which elements you want to stylise using the plugin. Generally that's going to be something like:
 
