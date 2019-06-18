@@ -42,7 +42,7 @@ If you're after more detail though you basically want to do the following:
 
    **&lt;script type="text/javascript"&gt; $(function () { $('audio, video').stylise(); }); &lt;/script&gt;**
 
-Keep in mind these are normal CSS selectors, so if you wanted to only stylise one single element, you could change 'audio, video' above to '#someElementsId' or '.justTheseElements' and as long as they are also either VIDEO or AUDIO elements, they will be the only things that change.
+Keep in mind these are normal CSS selectors, so if you wanted to only stylise one single element, you could change 'audio, video' above to '#someElementsId' or '.justTheseElements' and as long as they are also either VIDEO or AUDIO elements, they will be the only things that get stylised.
 
 6) Run it! 
 
