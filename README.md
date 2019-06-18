@@ -46,6 +46,7 @@ Keep in mind these are normal CSS selectors, so if you wanted to only stylise on
 
 6) Run it! 
 
+7) Follow me on twtter: https://twitter.com/themuradonian and say thanks :p
 
 ## Advanced options
 There are three options you can initialise the plugin with:
@@ -65,4 +66,3 @@ There are three options you can initialise the plugin with:
 Let me know if you find any of this useful!
 
 Nathan Murados 
-Follow me on twtter: https://twitter.com/themuradonian
