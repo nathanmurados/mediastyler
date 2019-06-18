@@ -1,9 +1,9 @@
 # Media Styler - Customise your audio and video players!
 ## Description
-A jquery plugin that provides customisation controls for standard audio and video html elements. Optionally ensures that audio and/or video do not play at the same time and (optionally) rewinds and stops other media when a different one starts playing (so you can't get lot's of audio playing at once and go crazy from the noise!). 
+A jquery plugin that provides customisation controls for standard audio and video html elements. Optionally ensures that audio and/or video do not play at the same time and (optionally) rewinds and stops other media when a different one starts playing (so you can't get lot's of audio playing at once and go crazy from the noise)!
 
 ## What it does
-* Lets you customise the controls of a video and audio elements using regular CSS.
+* Lets you customise the controls of video and audio elements using regular CSS.
 * Comes with a defualt orange style that you can feel free to modify as much as you want
 * Stops other audio / videos from playing when a different is played - which prevents audio / video from playing at the same time 
 * Allows you to decide to let audio / videos play at the same time if you don't like the default option
