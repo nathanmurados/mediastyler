@@ -26,28 +26,28 @@ If you're after more detail though you basically want to do the following:
 
 2) Make sure you have referenced JQuery in the page you're going to use this. Generally that means putting the following in the same page as the video / audio elements you want to customise:
 
-&lt;script
+**&lt;script
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"&gt;&lt;/script&gt;
+  crossorigin="anonymous"&gt;&lt;/script&gt;**
 
 3) Next, reference the awesome plugin. At this point you will want to make sure you're sitting down because it's about to get very awesome.
 
-  &lt;script src="whereverYouPutThisFile/mediastyler.js"&gt;&lt;/script&gt;
+  **&lt;script src="whereverYouPutThisFile/mediastyler.js"&gt;&lt;/script&gt;**
   
   Keep in mind this needs to point to wherever you actually put the script when you added it to your project.
 
 4) Now add the CSS too:
 
-  &lt;link href="css/stylised.css" rel="stylesheet" type="text/css"&gt;
+  **&lt;link href="css/stylised.css" rel="stylesheet" type="text/css"&gt;**
 
 5) Use the following to define which elements you want to stylise using the plugin. Generally that's going to be something like:
 
- &lt;script type="text/javascript"&gt;
+ **&lt;script type="text/javascript"&gt;
     $(function () {
       $('audio, video').stylise();
     });
- &lt;/script&gt;
+ &lt;/script&gt;**
 
 Keep in mind these are normal CSS selectors, so if you wanted to only stylise one single element, you could change 'audio, video' above to '#someElementsId' or '.justTheseElements' and as long as they are also either VIDEO or AUDIO elements, they will be the only things that change.
 
@@ -55,4 +55,21 @@ Keep in mind these are normal CSS selectors, so if you wanted to only stylise on
 
 
 <h2>Advance options</h2>
+There are three options you can initialise the plugin with:
 
+ 1) single-reset - to have a single active player which resets others when played (the default option)
+ 2) single-pause - to have a single active player which pauses others when played, or
+ 3) multi - to allow all players to be active simultaneously
+ 
+ To choose one, use the following code in place of the code I provided in step 5, and change 'single-reset' below to the one you want instead:
+ 
+ **&lt;script type="text/javascript"&gt;
+    $(function () {
+      $('audio, video').stylise({mode:'single-reset'});
+    });
+ &lt;/script&gt;**
+ 
+Please let me know if this helped you!
+
+Nathan Murados 
+Follow me on twtter: https://twitter.com/themuradonian
